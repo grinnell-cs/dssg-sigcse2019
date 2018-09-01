@@ -80,48 +80,21 @@ but also from neighboring communities.  Some came from as far as
 sixty miles away, suggesting that there are far too few such
 opportunities for students in rural areas.
 
-Thirty-eight campers signed up for the 2017 iteration of the camp, 
-far more than we expected---many campers arrived on the first day
-with a friend or relative who had heard about it from them and
-wanted to sign up.  We had also received a number of prior requests
-of the form ``I know I missed the sign-up deadline, but ...'', and
-so knew that we would need to be prepared for this additional
-interest.  Surprisingly, a smaller number signed up for the 2018
-iteration.  That may have been due to a late announcement by the
-local school districts.
-
-In the first year of the camp, had a relatively diverse group of
-campers for our area, with 82\% of campers identifying as white.
-We had 37\% female campers which, while fewer than we had hoped
-for, represents a relatively high number for what might seem a
-technical subject.
-
-TODO: INSERT DATA (AND PERHAPS COMMENTARY) ABOUT THE 2018 CAMP.
-
-Both college students and local high-school students served as
-counselors for the camps.  We generally tried to maintain a ratio
-of about one counselor per four campers in the classroom; that ratio
-varied slightly as counselors took breaks or worked on preparation
-for other activities.  As a result of this relativley low ratio,
-counselors were able to provide support promptly and effectively.
-And, because counselors were not pressed for time, they were able
-to encourage campers to find answers to their problems themselves,
-rather than provide immediate solutions.
-
 \section{Designing the camp}
 
 We selected the high-level approach to the camp prior to the
 research project.  Given the evidence of the value of computing for
-social good approaches,\cite{Goldweber2013}, our team's experience
-with such activities in a prior project,\cite{arts-coding}, and the
-paucity of code camps that focus on computing for social
-good,\cite{code-camp-survey-sigcse-2017}, we chose to include
-computing for social good as a core theme of the camp.  At the same
-time, we wanted to expose students to some current approaches to
-computing.  Since our institution has begun a new data science
-initiative, it seemed appropriate to make data science the second
-core focus of the camp.  The combination places our camp in a growing
-``data science for social good'' (ds4sg) movement.\footnote{E.g.,
+social good approaches,\cite{Goldweber2013,Goldweber2018}, our
+team's experience with such activities in a prior
+project,\cite{arts-coding}, and the paucity of code camps that focus
+on computing for social good,\cite{code-camp-survey-sigcse-2017},
+we chose to include computing for social good as a core theme of
+the camp.  At the same time, we wanted to expose students to some
+current approaches to computing.  Since our institution has begun
+a new data science initiative, it seemed appropriate to make data
+science the second core focus of the camp.  The combination places
+our camp in a growing ``data science for social good'' (ds4sg)
+movement.\footnote{E.g.,
 \texttt{https://dssg.uchicago.edu/data-science-for-social-good-conference-2017/}.}
 
 But a camp is more than its themes.  We also identified learning
@@ -163,11 +136,9 @@ solutions to personal and societal issues.  Similarly, case studies
 about weather patterns and car crashes favored an analytical approach
 to national events.
 
-TODO: ADD A BIT MORE ABOUT COMPUTING FOR SOCIAL GOOD.
-
 \subsubsection{Data science}
 
-Although the field of data science is rapidly gaining in popularity,
+The field of data science is rapidly gaining in popularity; however,
 its definition is tenuous, at best.  As one of the statistics faculty
 noted when talking to us about possible ways to design a data science
 curriculum, ``if you ask a dozen statisticians to define data
@@ -207,18 +178,15 @@ new field with the same name was just beginning.  As in the cases of
 both data science and computing for social good, it appears that there
 are a wide variety of meanings associated with these terms.
 
-\textit{TODO: Find some of the primary initiatives and grab 
-text from there.}
-
 In choosing our own approach to computing for social good, we
 identified a variety of approaches to help students understand how
-the tools of data science can have an impact.  For example, although 
+the tools of data science can have an impact.  For example, although
 much of our focus was on students writing scripts to explore and
 visualize data, we also exposed them to mechanisms for gathering
-environmental and other data.  The latter approach helped them understand
-that they need not rely only on extant data sets, but could also
-create their own.  In fact, two sets students designed their own attitudinal
-surveys as part of their broader projects.
+environmental and other data.  The latter approach helped them
+understand that they need not rely only on extant data sets, but
+could also create their own.  In fact, two sets students designed
+their own attitudinal surveys as part of their broader projects.
 
 More generally, it appears students came to understand that the
 tools they were learning allowed them to identify or gathering data
@@ -232,6 +200,52 @@ data to sell you something''.  Like all projects in computing for
 social good, our focus on ds4sg provided students with the opportunity
 to think about issues that mattered to them.
 
+The CSG-Ed community suggests that there are four levels of CSG
+activity,\cite{Goldweber2018}
+
+\begin{itemize}
+\item \textit{Level 1}: The low hanging fruit: redefine an existing
+  example/project with a CSG-Ed narrative.
+\item \textit{Level 2}: Explicitly address a social good problem,
+  though often in a simplified form.
+\item \textit{Level 3}: A real world problem solved as an
+  exercise.
+\item \textit{Level 4}: A real world problem brought by stakeholders
+  and with real world benefits rather than just an exercise
+\end{itemize}
+
+Our approach is somewhat tangential, although perhaps similar
+to level 2.  While they are not ``solving'' a problem, they are
+they are explicitly addressing an issue of social good,
+potentially using a real data set.  Rather than a solution,
+they are providing analysis.
+
+\newcommand{\afk}[1]{\textit{#1}}
+\newcommand{\proj}[1]{\textit{\textbf{#1}}}
+
+\begin{table*}[t]
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Monday} 	& \textbf{Tuesday} 	& \textbf{Wednesday} 	& \textbf{Thursday} 		& \textbf{Friday} \\ \hline
+Camp Orientation 	& Simple Statistics	& Variables		& \proj{Project Brainstorm}	& \proj{Project Work Time} \\ \hline
+Intro Algorithms	& Pair Programming I	& \afk{Game Break}	& Scavenger Hunt		& Visualization II \\ \hline
+\afk{Icebreakers}      	& \afk{Game Break}	& For-each loops	& 				& \afk{Game Break} \\ \hline
+                  	& Python Syntax		&			&				& \proj{Project Work Time} \\ \hline
+\afk{Lunch} & \afk{Lunch}	& \afk{Lunch}	& \afk{Lunch}	& \afk{Lunch} \\ \hline
+\afk{Recess} & \afk{Recess}	& \afk{Recess}	& \afk{Recess}	& \afk{Recess} \\ \hline
+Intro micro:bits	& Scavenger:bits	& Lists 		& Data Frames II	 	& Social Applications \\ \hline
+			& Intro Jupyter 	& Procedures		& Visualization I	 	& Work Time \\ \hline
+			& 			& 			& \proj{Case Study/Project Example}	& \proj{Presentation Prep} \\ \hline
+\afk{Snack Break} 	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break} \\ \hline
+Intro Conditionals 	& Intro Lists		& \afk{Scavenger Hunt}	& \proj{Project Work Time}	& Welcome Visitors \\ \hline
+Intro Data Science 	& \proj{Intro Project}	& Dataframes I		&				& \\ \hline
+\afk{Scavenger Hunt}	&  			& \proj{Project Prep}	& 			& \proj{Presentations} \\ \hline
+\end{tabular}
+\caption{Camp curriculum.  ``Away from keyboard'' activities appear in italic and project activities appear in bold italic.}
+\label{table:curriculum}
+\end{table*}
+
 \subsection{Platforms and languages}
 
 We took particular care in selecting applicable programming languages
@@ -239,11 +253,7 @@ and intuitive platforms. Other concerns regarding this choice
 included disparities in campers' prior programming experience and
 their broad age range. For reasons which will be introduced and
 elaborated in the following sections, we chose to base our camp in
-two main languages: A pair of block-based languages and Python.
-
-TODO: INSERT HERE (OR AT THE END) A BROADER ANALYSIS OF WHY WE'RE
-USING SO MANY PLATFORMS  WHILE WE FOUND IT NATURAL, SOME OF OUR
-REVIEWERS DID NOT>
+three main languages: A pair of block-based languages and Python.
 
 \subsubsection{BBC micro:bits---Hands on activities with a block-based language}
 
@@ -337,6 +347,13 @@ devices, and more. Reexamining the capabilities of micro:bits gave
 campers an intermission from new material as well as the opportunity
 to get more hands on experience with Python.
 
+While three languages in one week may seem like a lot, we found the
+approach logical, students progressed from a beginning block language 
+that was straightforward but limited, through a more complex block
+language, and on to a professional tool.  Because we tied ideas of
+each language to the next, the transition seemed relatively smooth.
+And, in the end, our goal is not mastery, but exposure.
+
 \subsection{Final projects}
 
 Early on in designing curricula, we decided to end the week with a
@@ -356,7 +373,7 @@ to those presentations, which were a highlight of the week, which
 gave our students an audience of roughly 80 people.  We discuss the
 projects and presentations further in section 5.
 
-\subsection{Structuring topics and days}
+\subsection{Organizing topics and days}
 
 In designing the camp, we considered both technical outcomes---core
 computational techniques like conditionals, loops, and subroutines--as
@@ -389,39 +406,42 @@ and students in the Computer Science department to introduce campers
 to their research.  
 
 We also exposed students to the broader view of ds4sg early and
-repeatedly.  Most days, counselors presented a case study that
+repeatedly.  On many days, counselors presented a case study that
 integrated new concepts with social good data. For example, our
 second case study taught campers how to organize data about weather
 changes in a way that would allow them to analyze it in Python.
 Most of the last day was devoted to working on final projects,
 getting them ready to present to their friends and family.
 
+Figure~\ref{table:curriculum} illustrates the curriculum for the
+second year of camp.
+
 \subsection{Incorporating data challenges into the scavenger hunts}
 
 We have traditionally made scavenger hunts a key part of our camps.
-Giving them reasons to explore the science building exposes them to
-a wide range of scientists and science, including both female scientists
-and scientists of color.  Giving them reasons to explore the campus
-helps give them a sense of the resources associated with a typical
-college campus.  In many years, one of our more successful scavenger
-hunts involves the students taking ``selfies'' thoughtout the
-building.  For example, ``Take a picture of yourself with at least
-four women scientists'', ``Take a picture of yourself with three
-pieces of safety equipment'', ``Take a picture of yourself in a lab
-coat''.  ``Take a picture of yourself with the person this building
-is named for''.
+Giving them reasons to explore the science building exposes them
+to a wide range of scientists and science, including both female
+scientists and scientists of color.  Giving them reasons to explore
+the campus helps give them a sense of the resources associated with
+a typical college campus.  In many years, one of our more successful
+scavenger hunts involves the students taking ``selfies'' thoughtout
+the building.  For example, ``Take a picture of yourself with at
+least four women scientists'', ``Take a picture of yourself with
+three pieces of safety equipment'', ``Take a picture of yourself
+in a lab coat''.  ``Take a picture of yourself with the person this
+building is named for''.
 
-For the ds4sg camps, we enhanced two of the scavenger hunts with
-data problems.  For one early scavenger hunt, students were tasked
-with recording data from throughout the science building.  Students
-worked in teams to program the micro:bits to gather different kinds
-of data, raced off to gather the data, and then returned to record it.
-WHAT KINDS OF PROGRAMS DID THEY WRITE?  A second, campus-wide, scavenger
-hunt tasked the students with using pre-programmed micro:bits to
-gather data at various locations across campus and then to process it
-when they returned.  
+For the second offering of the ds4sg camps, we enhanced two of the
+scavenger hunts with data problems.  For one early scavenger hunt,
+which we termed Scavenger:bits, students were tasked with recording
+data from throughout the science building.  Students worked in teams
+to program the micro:bits to gather different kinds of data, raced
+off to gather the data, and then returned to record it.  A second,
+campus-wide, scavenger hunt tasked the students with using
+pre-programmed micro:bits to gather data at various locations across
+campus and then to process it when they returned.
 
-The first micro:bits scavenger hunt, which we offered on the second
+The Scavenger:bits activity, which we offered on the second
 day of camp, exposed students to the power of programming devices
 to gather data.  It helped the students transition into more serious
 programming efforts.  The second heped the students understand the
@@ -431,72 +451,110 @@ see both the additional scope of data that are possible in crowdsourcing
 and also the variation that happens when the same data are gathered by
 different people.
 
-\section{Camp structure}
+\section{Lessons from year one}
 
-TO DO: INSERT A CHART THAT GIVES THE STRUCTURE OF THE FIRST VERSION OF
-THE CAMP.
+The camp has evolved in many ways between the two years.  The two
+data-enhanced scavenger activities described above are one such
+change.
 
-TO DO: INSERT NARRATIVE ABOUT CHANGES WE MADE.  (One change is below.)
-
-One of the major changes we made had to do with the data sets that students
-used.  In the 2017 camp, we asked students to find their own data sets and
-convert them to CSV format.  At the same time, we promised to finish any
-work they could not complete in a reasonable amount of time.
-In this area, we were reminded of why many data science classes
-provide students with a limited menu of data sets: most groups of
-campers had difficulty locating datasets with appropriate and useful
-data, even armed with the searching and vetting tools we taught
-them.  Most groups found this experience quite frustrating.  Thus,
-we counselors spent extra time finding datasets for some groups of
-campers as they had been unable to find suitable data themselves.
-This meant also that some groups had to change their topics depending
-on the availability of the data that they intended to find.  For
-example, a group interested in studying space debris ended up working
-with a data set on UFO sightings.  Luckily, campers were gracious
-and willing to adapt to these changes and most tackled their new
-topics with vigor.
+Another major changes we made had to do with the data sets that
+students used.  In the 2017 camp, we asked students to find their
+own data sets and convert them to CSV format.  At the same time,
+we promised to finish any work they could not complete in a reasonable
+amount of time.  In this area, we were reminded of why many data
+science classes provide students with a limited menu of data sets:
+most groups of campers had difficulty locating datasets with
+appropriate and useful data, even armed with the searching and
+vetting tools we taught them.  Most groups found this experience
+quite frustrating.  Thus, we counselors spent extra time finding
+datasets for some groups of campers as they had been unable to find
+suitable data themselves.  This meant also that some groups had to
+change their topics depending on the availability of the data that
+they intended to find.  For example, a group interested in studying
+space debris ended up working with a data set on UFO sightings.
+Luckily, campers were gracious and willing to adapt to these changes
+and most tackled their new topics with vigor.
 
 For the 2018 camp, we prepared a selected group of data sets for
-the campers to use.  TO DO: INSERT DESCRIPTIONS OF THE DATA SETS.
-In general, the students did not find these sets particularly
-limiting; most were able to tie their interests to one or more of
-the data sets.  Two groups also decided to gather their own data
-(e.g., about their fellow students' political leanings and opinions
-on particular data issues).  The surveys also revealed to the class
-some of the risks of surveys; for example, since the surveys asked
-for age and sex, the students could immediately identify which
-surveys belonged to the directors.\footnote{Mr. Director, it appears
-you forgot to answer this question.}  That provided an illustrative
-example of the responsibility of data scientists to consider the
-confidentiality of their subjects.
+the campers to use, including data sets on animals (wildlife trade,
+threatened species), education, environment (carbon dioxide emission,
+earth surface tmperature, food waste), equity \& poverty (hate crimes,
+homelssness, multidimensional poverty, stop and frisk), politics,
+and broader society (public locations in our state, world happiness
+report, representation of LGBT people on broadcast television).
+The students did not find these sets particularly limiting; most
+were able to tie their interests to one or more of the data sets.
+However, two groups decided to gather their own data (e.g., about
+their fellow students' political leanings and opinions on particular
+data issues).  The surveys also revealed to the class some of the
+risks of surveys; for example, since the surveys asked for age and
+sex, the students could immediately identify which surveys belonged
+to the directors.\footnote{Mr. Director, it appears you forgot to
+answer this question.}  That provided an illustrative example of
+the responsibility of data scientists to consider the confidentiality
+of their subjects.
 
-TO DO: INSERT A CHART THAT SHOWS THE CHANGES.
+We also streamlined parts of the curriculum, limiting their exposure
+to micro:python in order to provide deeper exposure to Jupyter.
 
-TO DO: INSERT A CHART THAT GIVES THE STRUCTURE OF THE SECOND VERSION
-OF THE CAMP
+In 2017, we had assumed that students would be excited by the
+micro:bits, and they were, enough so that many parents contacted
+us to find out how to get their own.  However, the students,
+by-and-large, told us that they were more excited by the work they
+did in Python and Jupyter Notebook.  Although we can not pinpoint
+the precise reason, it seems that they felt like they were doing
+``real'' programming when they were working in Jupyter because the
+environment they used matched that which working data scientists
+use.  Our increased use of micro:bits for scavenger hunts in 2018
+seems to have heightened student interest; while no group used the
+micro:bits to record data for their project, interest in them
+remained high.
+
+In 2017, the rapid transition from block code to Python created
+syntactic confusion.  Surprisingly, by spending less time on block
+code in 2017 and more on Python, we were able to better ease this
+transition.  That is, rather than covering issues like loops and
+conditional deeply in the block language and then reintroducing
+them in Python, we covered only the basics in the block language
+and focused more strongly on them when we got to Python.  Perhaps
+we should not have surprised about the difficulty students had
+transitioning between languages.  While there is an assumption that
+language transfer is natural, some studies have recently challenged
+that assumption (e.g., \cite{Chetty12,Dann12}).
+
+In 2017, we gave students relatively few guidelines for their
+presentations.  Most used the features of Jupyter Notebook to develop
+presentations that mixed code, graphs, and text.  Others hand-drew
+posters.  And a few gave only oral presentations.  During these
+presentations, the campers demonstrated knowledge and commitment
+to their topics, in addition to budding presentation skills. While
+there were some technical difficulties, such as a Jupyter notebook
+that would not load, the campers performed well and took setbacks
+in stride.  However, some were clearly stressed by the choice, and
+too few showed off their programming skills; while a Powerpoint
+of charts can be interesting and compelling, it does not reveal the
+underlying work.  Hence, for the 2018 camp, we asked all students
+to present from their Jupyter notebooks and provided tips for doing
+so.  It was clear from audience reactions that the parents were
+surprised at the amount of code that the campers had written.
 
 \section{Assessment}
 
 In order to measure the campers' change in self-efficacy and coding
-confidence in a quantitative manner, we used pre- and post-survey
+confidence in a quantitative manner, we used pre-camp and post-camp
+survey
 instruments based on upon the Georgia Computes! instruments
 \cite{Bruckman2009} that ask students to respond to various statements,
 such as ``I look like a computer scientist'' and ``I like the
-challenge of computing''.  For the 2017 camp, use used  a seven-point Likert 
-scale.  Based on our experience from the 2017 camp, for the 2018 camp
-we revised the instrument to use a five-point Liker scale.
-The questions
-appear in fig.~1.  Through these surveys, we were able to get a
-good sense of what subjects and concepts the campers were comfortable
-with prior to attending the camp, so as to measure any significant
-changes in their outlook by the end of the camp.  
-
-TODO: FORMAT THIS TABLE BETTER AND INSERT THE QUESTIONS FOR 2018
+challenge of computing''.  For the 2017 camp, use used  a seven-point
+Likert scale.  Based on our experience from the 2017 camp, for the
+2018 camp we revised the instrument to use a five-point Liker scale.
+The questions appear in Figure~1; Note that we changed question
+14 in 2018 to provide more clarity for students.
 
 \begin{figure}
 {\small
-\begin{tabular}{l|l|l}
-\textbf{Q} & \textbf{2017} & \textbf{2018}| \\ \hline
+\begin{tabular}{r|l}
  1 & \textit{I look like a computer scientist.} \\
  2 & \textit{Boys can do computing.} \\
  3 & \textit{Girls can do computing.} \\
@@ -511,33 +569,33 @@ TODO: FORMAT THIS TABLE BETTER AND INSERT THE QUESTIONS FOR 2018
 12 & \textit{Computer scientists are creative.} \\
 13 & \textit{Solving problems is fun.} \\
 14 & \textit{Computing is collaborative.} \\
+14' & \textit{Computing involves people working together.} \\
 15 & \textit{I like computing.} 
 \end{tabular}
 }
 \caption{Survey statements}
 \end{figure}
 
-TO DO: REBUILD OR DELETE THE FOLLOWING FIGURE.  A BETTER FIGURE WOULD
-HAVE WORDS CORESPONDING TO THE QUESTIONS, RATHER THAN NUMBERS.
-
-\begin{figure}
-\includegraphics[width=3.3in]{images/AvgAnswersAll}
-\caption{Student responses on 2017 pre- and post-surveys}
-\end{figure}
-
-In 14 out of the 15 questions, we saw an increase in the
-average response (fig. 2), 8 of those changes were statistically
-significant ($p < 0.05$). Notable positive changes (with t-test
-results far below the threshold of significance) occurred in the
-following questions: 1:\textit{I look like a computer scientist}, which
-had a positive difference in average survey response of approximately
+In fourteen out of the fifteen questions on the 2017 survey, we saw
+an increase in the average response.  Eight of those changes were
+statistically significant ($p < 0.05$). Notable positive changes
+(with t-test results far below the threshold of significance)
+occurred in the following questions: 1:\textit{I look like a computer
+scientist}, which had a positive difference in average survey
+response of approximately
 .94 points, 4:\textit{I know a lot about computing}, which had a positive
-difference of approximately 1.2 points, and 6:\textit{I know more than
-my friends about computers}, with a positive difference of 1 point.
-It seems that campers, although somewhat apprehensive of their own
-potential at the start of the project, found themselves more sure
-of their abilities, not only in comparison with their peers outside
-of the project, but also as independent thinkers.
+difference of approximately 1.2 points, and 6:\textit{I know more
+than my friends about computers}, with a positive difference of 1
+point.  It seems that campers, although somewhat apprehensive of
+their own potential at the start of the project, found themselves
+more sure of their abilities, not only in comparison with their
+peers outside of the project, but also as independent thinkers.
+
+In the 2018 data, we also saw particulary significant growth ($p <
+0.01$) in questions 1, 4, and 6.  This year, we also saw similarly
+significant growth ($p < 0.01$) in question 14:\textit{Computing
+involves people working together}\footnote{It appears our choice
+of wording was important!} and 15:\textit{I like computing}.
 
 Our surveys also included fields for ethnicity and gender, which
 we hoped to use to investigate the differences of growth in
@@ -548,41 +606,28 @@ of the minority ethnic-identity groups within our project. We were,
 however, able to investigate the differences in the growth of female
 and male campers.
 
-\begin{figure}
-\includegraphics[width=3.3in]{images/AvgAnswersFemale}
-\caption{Female student responses on pre- and post-surveys}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=3.3in]{images/AvgAnswersMale}
-\caption{Male student responses on pre- and post-surveys}
-\end{figure}
-
-A few trends appeared when looking at the pre-survey and post-survey
-averages for female campers (fig. 3) versus the averages for male
-campers (fig. 4). Visually, it seems that although the female
-campers averaged lower answers for most questions in both pre and
-post surveys, they tended to have a larger increase in self-efficacy
-than the male campers. This intuition is supported in the case of
-questions 2:\textit{Boys can do computing}, 3:\textit{Girls can do
-computing}, 7:\textit{I like the challenge of computing}, 9:\textit{I
-feel comfortable using a computer}, 10:\textit{I want to have a job
-in computing}, and 14:\textit{Computing is collaborative}, where
-the change in the female campers' responses yielded significant
-results ($p < 0.05$) and the change in male campers' responses did
-not ($p > 0.05$). Only in question 5 did the male campers' difference
-in average response yield a significant change while the female
-campers' responses did not.
+A few trends appeared when looking at the pre-camp and post-camp
+averages for female campers versus the averages for male campers
+in the 2017 data.  In both pre-camp and post-camp surveys, female
+campes tended to have a larger increase in self-efficacy than the
+male campers. This intuition is supported in the case of questions
+2:\textit{Boys can do computing}, 3:\textit{Girls can do computing},
+7:\textit{I like the challenge of computing}, 9:\textit{I feel
+comfortable using a computer}, 10:\textit{I want to have a job in
+computing}, and 14:\textit{Computing is collaborative}, where the
+change in the female campers' responses yielded significant results
+($p < 0.05$) and the change in male campers' responses did not ($p
+> 0.05$). Only in question 5 did the male campers' difference in
+average response yield a significant change while the female campers'
+responses did not.
 
 It seems that the curricula of this project had a more significant
 effect on our female campers, which is in keeping with Goldweber
 \textit{et al.}'s analysis \cite{Goldweber2013}.  The only negative
-difference in averages in the female campers' responses occurred
-with 11:\textit{I want to learn more about computing}, which,
+difference in averages in the female campers' responses was with
+question 11:\textit{I want to learn more about computing}, which,
 although discouraging to note, did not yield significant results
 when running a two-tail t-test (null hypothesis, $p < 0.01$).
-
-TO DO: INSERT INFORMATION FROM 2018 IN SIMILAR FORM.
 
 Ultimately, we achieved our goal in increasing the self-efficacy
 of the campers, and fulfilled our intent to make the concepts of
@@ -593,83 +638,30 @@ an especially encouraging outcome. Our results give us hope that
 the campers left inspired, and may collaborate with peers outside
 of the project to continue their education in computer science.
 
-\section{Discussion}
-
-As the assessment suggests, the camp was generally successful in
-making a positive difference in students' sense of who can ``do''
-computing and in their own self efficacy and interest.  While we
-were saddened to see that the female students began the camp with
-lower responses on most questions, we were encouraged to see their
-gains as higher than the male student's.
-
-However, many of our discoveries fell outside of the formal study.
-One of the most telling came in the transition from micro:bits and
-block-based programming to Jupyter and text-based programming.  We
-had assumed that students would be excited by the micro:bits, and
-they were, enough so that many parents contacted us to find out how
-to get their own.  However, the students, by-and-large, told us
-that they were more excited by the work they did in Python and
-Jupyter Notebook.  Although we can not pinpoint the precise reason,
-it seems that they felt like they were doing ``real'' programming
-when they were working in Jupyter because the environment they used
-matched that which working data scientists use.
-
-We also encountered some significant challenges.  Different levels
-of knowledge based on age group (rising 6th through 9th graders)
-made it difficult to pace the introduction of new ideas and challenges
-in such a way that it worked uniformly well.  In particular, the
-rapid transition from block code to Python created syntactic
-confusion.
-
-TO DO: SOME OF THE CHALLENGES IN THE FOLLOWING PARAGRAPH NEED TO BE
-MOVED TO THE CURRICULUM SECTION AS WE DISCUSS THE CHANGES WE MADE.
-
-The projects were central to the project and they provided some of
-our greatest gains as well as our greatest stressors.
-As campers gained familiarity with data science tools, they became
-more comfortable with the idea of a final project on a subject of
-their choosing. Rather than relying on a fixed collection of data
-sets, we permitted campers to choose project ideas and then to
-search for them.  When we held brainstorming sessions for project
-topics, many campers demonstrated excitement and creativity in
-choosing topics. Suggestions varied wildly; campers proposed to
-study topics including the losses of monarch butterfly habitats and
-migratory pathways, factors that contribute to video game sales,
-implications of deforestation across the globe, and the associated
-health risks of air pollution.  We were pleased to see that, even
-at this age, students have social and societal topics that they are
-passionate about.  Admittedly, there were a few groups who wanted
-to work on more personal interests (video games, literature),
-however, the vast majority clearly cared about societal topics and
-found it valuable to be able to use computing to better understand
-those topics.
-
-
-TO DO: REWRITE/EXTEND THE FOLLOWING PARAGRAPH TO COVER THE 2018 DIFFERENCES
-
-We were also quite pleased by the variety of ways in which students
-approached the presentations, presentations which were clearly
-intimidating to some.  Most used the features of Jupyter Notebook
-to develop presentations that mixed code, graphs, and text.  Others
-hand-drew posters.  And a few gave only oral presentations.  During
-these presentations, the campers demonstrated knowledge and commitment
-to their topics, in addition to budding presentation skills. While
-there were some technical difficulties, such as a Jupyter notebook
-that would not load, the campers performed well and took setbacks
-in stride.
-
-\section{Conclusions}
+\section{Conclusion}
 
 Although many middle-school outreach activities focus on students'
 perceived interests, such as video games or ``exciting'' technologies,
 it is clear from our experiences that computing for social good
 provides a platform for helping students grow in self-efficacy and
-interest.  We hope that our modest project will inspire others to
-take a similar approach.
+interest.
 
-We have also found that while students can be intimidated by a text-based
-programming language and a professional programming environment, they also
-feel empowered and gain additional self efficacy in using such an environment.
-While we are less comfortable recommending that others regularly take similar
-approaches, our informal conversations with the campers suggest that the
-approach is worth investigating further
+As the assessment suggests, the camp was generally successful in
+making a positive difference in students' sense of who can ``do''
+computing and in their own self efficacy and interest.  While we
+were saddened to see that the female students often began the camp with
+lower responses on most questions, we were encouraged to see their
+gains as higher than the male student's.
+
+The projects were central to the success of the camp and they
+provided some of the greatest benefits.  As campers gained
+familiarity with data science tools, they became more comfortable
+with the idea of a final project on a subject of their choosing.
+
+We have also found that while students can be intimidated by a
+text-based programming language and a professional programming
+environment, they also feel empowered and gain additional self
+efficacy in using such an environment.  Our informal conversations
+with the campers suggest that the approach is worth investigating
+further.  Resources from the camp, including curriculum, instructor
+guides, and presentations are available at http://anonymous.edu.
