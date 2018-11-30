@@ -1,24 +1,43 @@
 \newcommand{\afk}[1]{\textit{#1}}
 \newcommand{\proj}[1]{\textit{\textbf{#1}}}
-
+\renewcommand\cellalign{lt}
 \begin{table*}[t]
 \centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-\textbf{Monday} 	& \textbf{Tuesday} 	& \textbf{Wednesday} 	& \textbf{Thursday} 		& \textbf{Friday} \\ \hline
-Camp Orientation 	& Simple Statistics	& Variables		& \proj{Project Brainstorm}	& \proj{Project Work Time} \\ \hline
-Intro Algorithms	& Pair Programming I	& \afk{Game Break}	& Scavenger Hunt		& Visualization II \\ \hline
-\afk{Icebreakers}      	& \afk{Game Break}	& For-each loops	& 				& \afk{Game Break} \\ \hline
-                  	& Python Syntax		&			&				& \proj{Project Work Time} \\ \hline
-\afk{Lunch} & \afk{Lunch}	& \afk{Lunch}	& \afk{Lunch}	& \afk{Lunch} \\ \hline
-\afk{Recess} & \afk{Recess}	& \afk{Recess}	& \afk{Recess}	& \afk{Recess} \\ \hline
-Intro micro:bits	& Scavenger:bits	& Lists 		& Data Frames II	 	& Social Applications \\ \hline
-			& Intro Jupyter 	& Procedures		& Visualization I	 	& Work Time \\ \hline
-			& 			& 			& \proj{Case Study/Project Example}	& \proj{Presentation Prep} \\ \hline
-\afk{Snack Break} 	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break} \\ \hline
-Intro Conditionals 	& Intro Lists		& \afk{Scavenger Hunt}	& \proj{Project Work Time}	& Welcome Visitors \\ \hline
-Intro Data Science 	& \proj{Intro Project}	& Dataframes I		&				& \\ \hline
-\afk{Scavenger Hunt}	&  			& \proj{Project Prep}	& 			& \proj{Presentations} \\ \hline
+\textbf{Monday} 	& \textbf{Tuesday} 	& \textbf{Wednesday} 	& \textbf{Thursday} 		& \textbf{Friday} \\ \hline \hline
+
+\makecell{Camp Orientation \\ Intro Algorithms \\ \afk{Icebreakers}} 
+	& \makecell{Simple Statistics \\ Pair Programming I \\ \afk{Game Break} \\ Python Syntax}
+	& \makecell{Variables \\ \afk{Game Break} \\ For-each loops}
+	& \makecell{\proj{Project Brainstorm} \\ \afk{Scavenger Hun}t}
+	& \makecell{\proj{Project Work Time} \\ Visualization II \\ \afk{Game Break} \\ \proj{Project Work Time}} 
+	\\ \hline 
+
+\makecell{\afk{Lunch} + \afk{Recess}} 
+	& \makecell{\afk{Lunch} + \afk{Recess}} 
+	& \makecell{\afk{Lunch} + \afk{Recess}} 
+	& \makecell{\afk{Lunch} + \afk{Recess}} 
+	& \makecell{\afk{Lunch} + \afk{Recess}}  
+	\\ \hline
+
+Intro micro:bis
+	& \makecell{Scavenger:bits \\ Intro Jupyter} 
+	& \makecell{Lists \\ Procedures} 
+	& \makecell{Data Frames II \\ Visualization I \\ \proj{Case Study} \\ \proj{Project Example}} 
+	& \makecell{Social Applications \\ \proj{Work Time} \\ \proj{Presentation Prep}}
+	\\ \hline
+
+\afk{Snack Break} 	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break} 
+	\\ \hline 
+
+\makecell{Intro Conditionals \\ Intro Data Science \\ \afk{Scavenger Hunt}}
+	& \makecell{Intro Lists \\ \proj{Intro Project}}
+	& \makecell{\afk{Scavenger Hunt} \\ Dataframes I \\ \proj{Project Prep}}
+	& \makecell{\proj{Projet Work Time}}
+	& \makecell{Welcome Visitors \\ \proj{Presentations}}
+	\\ \hline
+
 \end{tabular}
 \caption{Camp curriculum.  ``Away from keyboard'' activities appear in italic and project activities appear in bold italic.}
 \label{table:curriculum}
