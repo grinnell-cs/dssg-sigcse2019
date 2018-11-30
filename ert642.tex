@@ -1,0 +1,51 @@
+\documentclass[sigconf]{acmart}
+\usepackage{balance}
+
+\copyrightyear{2019}
+\acmYear{2019}
+\setcopyright{acmcopyright}
+\acmConference[SIGCSE '19]{Proceedings of the 50th ACM Technical Symposium on Computer Science Education}{February 27-March 2, 2019}{Minneapolis, MN, USA}
+\acmBooktitle{Proceedings of the 50th ACM Technical Symposium on Computer Science Education (SIGCSE '19), February 27-March 2, 2019, Minneapolis, MN, USA}
+\acmPrice{15.00}
+\acmDOI{10.1145/3287324.3287510}
+\acmISBN{978-1-4503-5890-3/19/02}
+\settopmatter{printacmref=true}
+\fancyhead{}
+
+% Some settings
+% https://latex.org/forum/viewtopic.php?t=7992
+\newenvironment{blockquote}{%
+  \list{} {
+    \leftmargin0.2in
+    \rightmargin\leftmargin
+  }
+  \slshape
+  \item\relax}
+{\endlist}
+
+% And the document
+\begin{document}
+\title[A Middle School Camp: Data Science \& Computing for Social Good]{Exploring the Effects of a Summer Middle-School Camp Emphasizing Data Science and Computing for Social Good}
+
+\author{Caelin Bryant, Yesheng Chen, Zhen Chen, Jonathan Gilmour, Shyamala Gumidyala, Beatriz Herce-Hagiwara, Annabella Koures, Seoyeon Lee, James Msekela, Anh Thu Pham, Halle Remash, Marli Remash, Nolan Schoenle, Jonah Zimmerman, Sarah Dahlby Albrith, and Samuel A. Rebelsky}
+\affiliation{Grinnell College}
+\email{{bryantca,chenyesh,chenzhen,gilmourj,gumidyal,hercehag,koursean,leeseoye,msekelaj,phamanht,remashha,remashma,schoenle,zimmera2,dahlbysa,rebelsky}@grinnell.edu}
+
+% The default list of authors is too long for headers}
+\renewcommand{\shortauthors}{Bryant \textit{et al.}}
+
+\input{abstract.tex}
+\input{ccsxml.tex}
+\input{keywords.tex}
+
+\maketitle
+
+\input{body.tex}
+
+\input{acknowledgements.tex}
+
+\bibliographystyle{ACM-Reference-Format}
+\balance
+\bibliography{ert642} 
+
+\end{document}
