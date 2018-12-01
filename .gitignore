@@ -243,3 +243,15 @@ TSWLatexianTemp*
 
 # Strangely generated file
 comment.cut
+
+# Editor files
+*.swp
+
+# Sam works on a Mac
+.DS_Store
+
+# We sometimes create temporary .txt files for other purposes
+*.txt
+
+# Zip files for uploading to ACM
+*.zip
