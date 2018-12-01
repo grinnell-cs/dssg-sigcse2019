@@ -15,10 +15,10 @@ ZIPFILES = \
 	bibliography.bib \
 	body.tex \
 	ccsxml.tex \
+	curriculum.tex \
 	ert642.tex \
-	keywords.tex \
-	images
+	keywords.tex
 
-ert640.zip: $(ZIPFILES)
+ert642.zip: $(ZIPFILES)
 	rm -f $@
 	zip -r $@ $(ZIPFILES)
