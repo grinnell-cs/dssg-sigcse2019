@@ -1,5 +1,8 @@
 \newcommand{\afk}[1]{\textit{#1}}
 \newcommand{\proj}[1]{\textit{\textbf{#1}}}
+%\newcommand{\commonactivity}[1]{#1 & #1 & #1 & #1 & #1}
+\newcommand{\commonactivity}[1]{\multicolumn{5}{|c|}{#1}}
+
 \renewcommand\cellalign{lt}
 \begin{table*}[t]
 \centering
@@ -10,25 +13,21 @@
 \makecell{Camp Orientation \\ Intro Algorithms \\ \afk{Icebreakers}} 
 	& \makecell{Simple Statistics \\ Pair Programming I \\ \afk{Game Break} \\ Python Syntax}
 	& \makecell{Variables \\ \afk{Game Break} \\ For-each loops}
-	& \makecell{\proj{Project Brainstorm} \\ \afk{Scavenger Hun}t}
+	& \makecell{\proj{Project Brainstorm} \\ \afk{Scavenger Hunt}}
 	& \makecell{\proj{Project Work Time} \\ Visualization II \\ \afk{Game Break} \\ \proj{Project Work Time}} 
 	\\ \hline 
 
-\makecell{\afk{Lunch} + \afk{Recess}} 
-	& \makecell{\afk{Lunch} + \afk{Recess}} 
-	& \makecell{\afk{Lunch} + \afk{Recess}} 
-	& \makecell{\afk{Lunch} + \afk{Recess}} 
-	& \makecell{\afk{Lunch} + \afk{Recess}}  
+\commonactivity{\afk{Lunch + Recess}}
 	\\ \hline
 
-Intro micro:bis
+Intro micro:bits
 	& \makecell{Scavenger:bits \\ Intro Jupyter} 
 	& \makecell{Lists \\ Procedures} 
 	& \makecell{Data Frames II \\ Visualization I \\ \proj{Case Study} \\ \proj{Project Example}} 
 	& \makecell{Social Applications \\ \proj{Work Time} \\ \proj{Presentation Prep}}
 	\\ \hline
 
-\afk{Snack Break} 	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break}	& \afk{Snack Break} 
+\commonactivity{\afk{Snack Break}}
 	\\ \hline 
 
 \makecell{Intro Conditionals \\ Intro Data Science \\ \afk{Scavenger Hunt}}
